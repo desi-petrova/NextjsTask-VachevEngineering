@@ -1,4 +1,4 @@
-import { Hero, Agancy } from "../sections";
+import { Hero, Agency } from "../sections";
 
 const heroProps = {
   image: { src: "/img/heroimg.png", alt: "", width: 1000, height: 1680 },
