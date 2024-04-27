@@ -8,7 +8,7 @@ const heroProps = {
 };
 
 const agencyProps = {
-  image: { src: "../resources/video.png", alt: "", width: 1000, height: 1680 },
+  image: { src: "/img/video.png", alt: "", width: 1000, height: 1680 },
   title: "Managed agency selection",
   description: 'Stengthen your onboarding process',
   briefTitle: 'Breif',
