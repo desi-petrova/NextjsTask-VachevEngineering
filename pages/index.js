@@ -8,15 +8,24 @@ const heroProps = {
 };
 
 const agencyProps = {
-  image: { src: "/img/video.png", alt: "", width: 1000, height: 1680 },
+  image: { src: "/img/video.png", alt: "", width: 1000, height: 1550 },
   title: "Managed agency selection",
   description: 'Stengthen your onboarding process',
-  briefTitle: 'Breif',
-  briefDescription: 'Complete brief writing or siple guidance on what to include, we have got you covered.',
+  briefTitle: 'Brief',
+  briefDescriptionStart: 'Complete ',
+  briefDescriptionBold: ' brief writing or siple guidance ',
+  briefDescriptionEnd: 'on what to include, we have got you covered.',
   searchTitle: 'Search',
-  searchDescription: 'In-depth agency search covering; criteria matching, door knocking and due-dilligence vetting.',
+  searchDescriptionStart: 'In-depth agency search covering; ',
+  searchDescriptionBold: 'criteria matching ',
+  searchDescriptionEnd: ', door knocking and due-dilligence vetting.',
   pitchTitle: 'Pitch',
-  pitchDescription: 'Comprehensive pitch management, including comms, diary management and pitch hosting '
+  pitchDescriptionStart: 'Comprehensive ',
+  pitchDescriptionBold: 'pitch management, ',
+  pitchDescriptionEnd: 'including comms, diary management and pitch hosting.',
+  imageBrief: { src: "/img/Brief.jpg", alt: "", width: 10, height: 10 },
+  imageSearch: { src: "/img/Search.jpg", alt: "", width: 10, height: 10 },
+  imagePitch: { src: "/img/pitch.jpg", alt: "", width: 10, height: 10 }
 }
 
 export default function Home() {
